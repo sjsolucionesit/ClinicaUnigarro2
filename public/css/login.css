@@ -1,0 +1,66 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    width: 200%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .8s;
+}
+
+.moverDerecha {
+    transition: all .8s;
+    transform: translateX(-50%);
+}
+
+.login>div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#selectPac {
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+    color: grey;
+}
+
+#selectPac:hover {
+    background: #65c4af;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+#selectDoc {
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+    color: grey;
+}
+
+#selectDoc:hover {
+    background: #3AB0F0;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+@media (max-width: 425px) {
+    html,
+    body {
+        overflow: initial;
+    }
+}

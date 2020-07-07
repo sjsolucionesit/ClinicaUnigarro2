@@ -1,0 +1,62 @@
+<div class="navegador bg-white" style="position: fixed;">
+    <div class="w-50 mx-auto my-2">
+        <img src="./img/logo2.png" alt="logo Ubimed" class="img-fluid">
+    </div>
+    <a href="/perfil" class="w-100">
+        <div class="w-50 mx-auto">
+            <hr>
+            <img src="<%=usuario.rutaImg%>" class="img-circular rounded-circle">
+        </div>
+        <div class="w-75 mx-auto">
+            <p class="text-muted mt-3 text-center mt-2 d-none ocultarSM d-md-block" style="line-height: 18px;">
+                Hola
+                <%=usuario.nombre%> <strong>Bienvenido</strong>
+            </p>
+            <hr>
+        </div>
+    </a>
+    <div class="w-75 mx-auto">
+        <a href="/" class="d-none w-100 mb-3 justify-content-between centerSM align-items-center flex-wrap" style="color: #40D4A1;">
+            <div class="d-flex justify-content-center align-items-center" style="width: 32px;">
+                <i class="fas fa-house-user fa-2x"></i>
+            </div>
+            <small class="mt-1 letraLogo">Inicio</small>
+        </a>
+        <a href="/perfil" class="w-100 mb-3 d-flex justify-content-between centerSM align-items-center flex-wrap" style="color: #40D4A1;">
+            <div class="d-flex justify-content-center align-items-center" style="width: 32px;">
+                <i class="fas fa-user fa-2x"></i>
+            </div>
+            <small class="mt-1 letraLogo">Perfil</small>
+        </a>
+        <a href="/historia" class="w-100 mb-3 d-flex justify-content-between centerSM align-items-center flex-wrap" style="color: #40D4A1;">
+            <div class="d-flex justify-content-center align-items-center" style="width: 32px;">
+                <i class="fas fa-file-medical-alt fa-2x"></i>
+            </div>
+            <small class="mt-1 letraLogo">Historial</small>
+        </a>
+        <a href="/consulta" class="w-100 mb-3 d-flex justify-content-between centerSM align-items-center flex-wrap" style="color: #40D4A1;">
+            <div class="d-flex justify-content-center align-items-center" style="width: 32px;">
+                <i class="fas fa-laptop-medical fa-2x"></i>
+            </div>
+            <small class="mt-1 letraLogo">Videoconsulta</small>
+        </a>
+        <a href="/agenda" class="d-none w-100 mb-3 justify-content-between centerSM align-items-center flex-wrap" style="color: #40D4A1;">
+            <div class="d-flex justify-content-center align-items-center" style="width: 32px;">
+                <i class="fas fa-calendar-alt fa-2x"></i>
+            </div>
+            <small class="mt-1 letraLogo">Agenda</small>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=+573042178381&text=Hola,%20Ubimed%20necesito%20soporte." class="w-100 mb-3 d-flex justify-content-between centerSM align-items-center flex-wrap" style="color: #40D4A1;">
+            <div class="d-flex justify-content-center align-items-center" style="width: 32px;">
+                <i class="fas fa-headset fa-2x"></i>
+            </div>
+            <small class="mt-1 letraLogo">Soporte</small>
+        </a>
+        <a href="/logout" class="w-100 mb-5 d-flex justify-content-between centerSM align-items-center flex-wrap" style="color: #40D4A1;">
+            <div class="d-flex justify-content-center align-items-center" style="width: 32px;">
+                <i class="fas fa-sign-out-alt fa-2x"></i>
+            </div>
+            <small class="mt-1 letraLogo">Cerrar Sesión</small>
+        </a>
+    </div>
+</div>
